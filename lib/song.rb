@@ -17,7 +17,7 @@ class Song
     column_names = []
     
     table_info.each do |row|
-      column_names << column["name"]
+      column_names << row["name"]
     end
     column_names.compact
   end
